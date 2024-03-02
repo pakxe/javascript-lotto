@@ -4,10 +4,10 @@
  */
 
 import WebLottoController from "./controller/WebLottoController.js";
-import "./view/web/styles.css";
 import outputView from "./view/web/outputView.js";
 import inputView from "./view/web/inputView.js";
 import headerResize from "./view/web/headerResize.js";
+import "./view/web/styles.css";
 
 const webLottoController = new WebLottoController(inputView, outputView);
 
